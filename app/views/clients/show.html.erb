@@ -1,0 +1,10 @@
+<div class="clients">
+<% @clients.each do |client| %>
+
+    <div class="row">
+      <h3><%= client.name %></h3>
+      <p><%= client.cash %></p>
+    </div>
+
+  <% end %>
+</div>

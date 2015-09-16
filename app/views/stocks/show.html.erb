@@ -1,0 +1,10 @@
+<div class="stocks">
+<% @stocks.each do |stock| %>
+
+    <div class="row">
+      <h3><%= stock.name %></h3>
+      <p><%= stock.shareprice %></p>
+    </div>
+
+  <% end %>
+</div>

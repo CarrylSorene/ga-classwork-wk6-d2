@@ -1,5 +1,5 @@
 class ClientsController < ApplicationController
-  
+
   def index
     @clients = Client.all.order('created_at DESC')
   end
